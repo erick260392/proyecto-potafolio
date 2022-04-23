@@ -8,10 +8,10 @@ let rootStyles =document.documentElement.style;
 toogleTheme.addEventListener("click",() =>{
     document.body.classList.toggle("dark")
     if(toogleIcon.src.includes("moon.svg")){
-        toogleIcon.src="/portfolio-youtube-inicial/assets/icons/sun.svg"
+        toogleIcon.src="assets/icons/sun.svg"
         toogleText.textContent="Light Mode"
     }else{
-        toogleIcon.src="/portfolio-youtube-inicial/assets/icons/moon.svg"
+        toogleIcon.src="assets/icons/moon.svg"
         toogleText.textContent="Dark Mode"
     }
 });
